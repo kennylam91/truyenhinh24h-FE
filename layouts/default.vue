@@ -1,7 +1,7 @@
 <template>
-  <div>
+  <div class="main-panel">
     <div>
-      <b-navbar toggleable="lg" type="dark" variant="dark">
+      <b-navbar toggleable="lg" type="dark">
         <b-navbar-brand tag="h1" class="mb-0">Truyenhinh24h</b-navbar-brand>
 
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
@@ -26,7 +26,7 @@
                 class="mr-sm-2"
                 placeholder="Search"
               ></b-form-input>
-              <b-button size="sm" class="my-2 my-sm-0" type="submit"
+              <b-button size="sm" class="my-2 my-sm-0" variant="primary"
                 >Search</b-button
               >
             </b-nav-form>

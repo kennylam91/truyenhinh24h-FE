@@ -1,0 +1,8 @@
+@import './variables';
+.main-panel{
+  position: relative;
+  float: right;
+  width: $full-width;
+  min-height: 100vh;
+  background: linear-gradient($background-black, $background-states-black); 
+}
